@@ -1,1 +1,5 @@
-yarn lint-staged --verbose
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Your pre-commit commands here, for example:
+# npm test

@@ -45,4 +45,3 @@ async function get(contractName: string) {
   const deployment = await deployments.get(contractName);
   return deployment;
 }
-
